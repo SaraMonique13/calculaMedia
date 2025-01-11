@@ -10,39 +10,41 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <img src="images/logo.png" alt="logo">
-        <h1>Calculadora de Médias</h1>
-    </header>
-    <form>
-        <input type="text" name="name" id="iname" required placeholder="Nome da atividade">
-        <input type="number" name="nota" id="inota" required placeholder="Nota" min="0" max="10">
-        <input type="submit" value="Adicionar +">
-    </form>
-    <div>
-        <table>
-            <thead>
-                <tr>
-                    <th>Nome da atividade</th>
-                    <th>Nota</th>
-                    <th>Aprovado?</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Atividade A</td>
-                    <td>7</td>
-                    <td><img src="images/aprovado.png" alt="img"></td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td>Nota média</td>
-                    <td>11</td>
-                    <td>Aprovado</td>
-                </tr>
-            </tfoot>
-        </table>
+    <div class="container">
+        <header>
+            <img src="images/logo.png" alt="logo">
+            <h1>Calculadora de Médias</h1>
+        </header>
+        <form>
+            <input type="text" name="name" id="iname" required placeholder="Nome da atividade">
+            <input type="number" name="nota" id="inota" required placeholder="Nota" min="0" max="10">
+            <input type="submit" value="Adicionar +">
+        </form>
+        
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome da atividade</th>
+                        <th>Nota</th>
+                        <th>Aprovado?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Atividade A</td>
+                        <td>7</td>
+                        <td><img src="images/aprovado.png" alt="img"></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Nota média</td>
+                        <td>11</td>
+                        <td>Aprovado</td>
+                    </tr>
+                </tfoot>
+            </table>
+        
     </div>
 </body>
 </html>
