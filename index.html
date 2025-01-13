@@ -15,17 +15,17 @@
             <img src="images/logo.png" alt="logo">
             <h1>Calculadora de Médias</h1>
         </header>
-        <form>
+        <form id="form-atividade">
             <input type="text" name="name" id="iname" required placeholder="Nome da atividade">
             <input type="number" name="nota" id="inota" required placeholder="Nota" min="0" max="10">
-            <input type="submit" value="Adicionar +">
+            <input type="submit" value="Adicionar +" id="button">
         </form>
         
             <table>
                 <thead>
                     <tr>
-                        <th>Nome da atividade</th>
-                        <th>Nota</th>
+                        <th id="nome-atividade">Nome da atividade</th>
+                        <th id="nota-atividade">Nota</th>
                         <th>Aprovado?</th>
                     </tr>
                 </thead>
