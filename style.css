@@ -46,10 +46,11 @@ form input{
     background-color: #fff;
     border: none;
     border-bottom: 2px solid #000;
+    margin-right: 16px;
     padding: 8px;
 }
 
-form#button{
+form #button{
     background-color: green;
     color: white;
     font-size: 24px;
