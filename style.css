@@ -28,8 +28,8 @@ header h1{
 }
 
 .container{
-    max-width: 960px;
-    width: 100px;
+    max-width: 500px;
+    
     margin: 0 auto;
 }
 
@@ -49,8 +49,8 @@ form input{
     padding: 8px;
 }
 
-form button{
-    background-color: #009432;
+form#button{
+    background-color: green;
     color: white;
     font-size: 24px;
     font-weight: bold;
