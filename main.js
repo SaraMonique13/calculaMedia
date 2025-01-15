@@ -42,10 +42,17 @@ function atualizaTabela(){
 }
 
 function atualizaMediaFinal(){
+    const mediaFinal = calculaMediaFinal()
+
+    document.getElementById('media-final-valor').innerHTML = mediaFinal
+    document.getElementById('media-final-resultado').innerHTML = mediaFinal >= 7 ? 'Aprovado' : 'Reprovado'
+}
+
+function calculaMediaFinal(){
     let soma = 0
 
     for(let i = 0; i < notas.length; i++){
         soma += notas[i]
     }
-    const media = 
+    return soma / notas.length
 }
